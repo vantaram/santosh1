@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'main', credentialsId: 'jenkinsDamal', url: 'https://github.com/vantaram/santosh1.git'
+                git branch: 'main', url: 'https://github.com/ksrepo9/kartikeyapro.git'
                    }
 			            }
 		stage('maven clean') {
@@ -31,7 +31,11 @@ pipeline {
                 sh 'mvn package'
                    }
 			            }
-		
+		stage('maven deployment') {
+            steps {
+                sh 'mvn deployment'
+                   }
+			            }
 			}			
 	}
 	
