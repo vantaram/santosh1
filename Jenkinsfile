@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'main', url: 'https://github.com/ksrepo9/kartikeyapro.git'
+                git branch: 'main', credentialsId: 'jenkinsDamal', url: 'https://github.com/vantaram/santosh1.git'
                    }
 			            }
 		stage('maven clean') {
