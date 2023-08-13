@@ -69,5 +69,10 @@
         <id>deployment</id>
         <url>http://3.95.137.191:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
+	 <repository>
+            <id>deployment</id>
+            <name>RepositoryProxyRel</name>
+             <url>http://3.95.137.191:8081/repository/maven-snapshots/</url>
+        </repository>
   </distributionManagement>
 </project>
