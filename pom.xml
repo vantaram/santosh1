@@ -6,7 +6,7 @@
 
   <groupId>demo</groupId>
   <artifactId>ks</artifactId>
-  <version>4.0-SNAPSHOT</version>
+  <version>5.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>ks Maven Webapp</name>
@@ -67,12 +67,12 @@
   <distributionManagement>
     <snapshotRepository>
         <id>deployment</id>
-        <url>http://100.27.28.46:8081/:8081/repository/maven-snapshots/</url>
+        <url>http://100.27.28.46:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 	 <repository>
             <id>deployment</id>
             <name>RepositoryProxyRel</name>
-             <url>http://100.27.28.46:8081/:8081/repository/maven-releases/</url>
+             <url>http://100.27.28.46:8081/repository/maven-releases/</url>
         </repository>
   </distributionManagement>
 </project>
