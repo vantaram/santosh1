@@ -72,7 +72,7 @@
 	 <repository>
             <id>deployment</id>
             <name>RepositoryProxyRel</name>
-             <url>http://3.85.41.48:8081/repository/maven-releases/</url>
+             <url>http://18.234.253.50:8081/repository/maven-releases/</url>
         </repository>
   </distributionManagement>
 </project>
